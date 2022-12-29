@@ -1,7 +1,7 @@
 
 # Black Friday Board Game - Online Variant
 
-Based on the Board Games by:
+Based on the **Black Friday** and **Ponzi Scheme** board games by:
 - [Friedemann Friese, published by KOSMOS, Rio Grande Games](https://boardgamegeek.com/boardgame/39242/black-friday)
 - [Jesse Li, published by 2Tomatoes Games, Homosapiens Lab, Tasty Minstrel Games](https://boardgamegeek.com/boardgame/180899/ponzi-scheme)
 
