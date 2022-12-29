@@ -1,0 +1,1 @@
+Basic entity definitions used throughout the app.
