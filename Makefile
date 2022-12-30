@@ -8,7 +8,7 @@ help: ## Display this help screen
 run: ## Build and run the server with Docker
 	@VER=custom; \
 	if [ -f .git/refs/heads/master ]; then VER=$$(head -1 .git/refs/heads/master | head -c 7); fi; \
-	sed -i "s/VERSIONSTRING = \".*\"/VERSIONSTRING = \"$$VER\"/g" ./src/config/config.go; \
+	sed -i "s/VERSIONSTRING string = \".*\"/VERSIONSTRING string = \"$$VER\"/g" ./src/config/config.go; \
 	cd ./src; \
 	go mod tidy && go mod download && \
 	docker run --rm -it $$(docker build -q .)
