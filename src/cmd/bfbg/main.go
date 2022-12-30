@@ -16,6 +16,7 @@ func main() {
 	// Run
 	log.Println(cfg.App.Name)
 	log.Println(cfg.App.Version)
+	log.Println(cfg.HTTP.Port)
 	os.Exit(0)
 }
 

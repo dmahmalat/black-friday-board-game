@@ -1,5 +1,4 @@
-http:
-  port: '8080'
+# Config file to ease passing of arguments
 
-logger:
-  log_level: 'debug'
+http:
+  port: 80
